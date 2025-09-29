@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<UANodeSet xmlns="http://opcfoundation.org/UA/2011/03/UANodeSet.xsd" xmlns:s1="http://www.prosysopc.com/OPCUA/SimulationNodes/Types.xsd" xmlns:uax="http://opcfoundation.org/UA/2008/02/Types.xsd">
+  <NamespaceUris>
+    <Uri>http://www.prosysopc.com/OPCUA/SimulationNodes/</Uri>
+  </NamespaceUris>
+  <UAVariable AccessLevel="5" BrowseName="1:Counter" DataType="i=6" Historizing="true" MinimumSamplingInterval="-1.0" NodeId="ns=1;i=1001" UserAccessLevel="3">
+    <DisplayName>Counter</DisplayName>
+    <References>
+      <Reference ReferenceType="i=40">i=63</Reference>
+      <Reference IsForward="false" ReferenceType="i=35">ns=1;s=85/0:Simulation</Reference>
+    </References>
+  </UAVariable>
+  <UAVariable AccessLevel="5" BrowseName="1:Random" DataType="i=11" Historizing="true" MinimumSamplingInterval="-1.0" NodeId="ns=1;i=1002" UserAccessLevel="3">
+    <DisplayName>Random</DisplayName>
+    <References>
+      <Reference ReferenceType="i=40">i=63</Reference>
+      <Reference IsForward="false" ReferenceType="i=35">ns=1;s=85/0:Simulation</Reference>
+    </References>
+  </UAVariable>
+  <UAVariable AccessLevel="5" BrowseName="1:Sawtooth" DataType="i=11" Historizing="true" MinimumSamplingInterval="-1.0" NodeId="ns=1;i=1003" UserAccessLevel="3">
+    <DisplayName>Sawtooth</DisplayName>
+    <References>
+      <Reference ReferenceType="i=40">i=63</Reference>
+      <Reference IsForward="false" ReferenceType="i=35">ns=1;s=85/0:Simulation</Reference>
+    </References>
+  </UAVariable>
+  <UAVariable AccessLevel="5" BrowseName="1:Sinusoid" DataType="i=11" Historizing="true" MinimumSamplingInterval="-1.0" NodeId="ns=1;i=1004" UserAccessLevel="3">
+    <DisplayName>Sinusoid</DisplayName>
+    <References>
+      <Reference ReferenceType="i=40">i=63</Reference>
+      <Reference IsForward="false" ReferenceType="i=35">ns=1;s=85/0:Simulation</Reference>
+    </References>
+  </UAVariable>
+  <UAVariable AccessLevel="5" BrowseName="1:Square" DataType="i=11" Historizing="true" MinimumSamplingInterval="-1.0" NodeId="ns=1;i=1005" UserAccessLevel="3">
+    <DisplayName>Square</DisplayName>
+    <References>
+      <Reference ReferenceType="i=40">i=63</Reference>
+      <Reference IsForward="false" ReferenceType="i=35">ns=1;s=85/0:Simulation</Reference>
+    </References>
+  </UAVariable>
+  <UAVariable AccessLevel="5" BrowseName="1:Triangle" DataType="i=11" Historizing="true" MinimumSamplingInterval="-1.0" NodeId="ns=1;i=1006" UserAccessLevel="3">
+    <DisplayName>Triangle</DisplayName>
+    <References>
+      <Reference ReferenceType="i=40">i=63</Reference>
+      <Reference IsForward="false" ReferenceType="i=35">ns=1;s=85/0:Simulation</Reference>
+    </References>
+  </UAVariable>
+  <UAVariable AccessLevel="7" BrowseName="1:Constant" DataType="i=11" Historizing="true" MinimumSamplingInterval="-1.0" NodeId="ns=1;i=1007" UserAccessLevel="3">
+    <DisplayName>Constant</DisplayName>
+    <References>
+      <Reference ReferenceType="i=40">i=63</Reference>
+      <Reference IsForward="false" ReferenceType="i=35">ns=1;s=85/0:Simulation</Reference>
+    </References>
+  </UAVariable>
+  <UAVariable AccessLevel="7" BrowseName="1:SP_N" DataType="i=10" Historizing="true" MinimumSamplingInterval="-1.0" NodeId="ns=1;i=1008" UserAccessLevel="3">
+    <DisplayName>SP_N</DisplayName>
+    <References>
+      <Reference ReferenceType="i=40">i=63</Reference>
+      <Reference IsForward="false" ReferenceType="i=35">ns=1;i=1010</Reference>
+    </References>
+    <Value>
+      <uax:Float>15.5</uax:Float>
+    </Value>
+  </UAVariable>
+  <UAVariable AccessLevel="7" BrowseName="1:SP_P" DataType="i=24" Historizing="true" MinimumSamplingInterval="-1.0" NodeId="ns=1;i=1009" UserAccessLevel="3">
+    <DisplayName>SP_P</DisplayName>
+    <References>
+      <Reference ReferenceType="i=40">i=63</Reference>
+    </References>
+  </UAVariable>
+  <UAObject BrowseName="1:Control_variables" NodeId="ns=1;i=1010">
+    <DisplayName>Control_variables</DisplayName>
+    <References>
+      <Reference ReferenceType="i=40">i=61</Reference>
+      <Reference IsForward="false" ReferenceType="i=35">ns=1;s=85/0:Simulation</Reference>
+    </References>
+  </UAObject>
+  <UAVariable AccessLevel="7" BrowseName="1:P_N" DataType="i=10" Historizing="true" MinimumSamplingInterval="-1.0" NodeId="ns=1;i=1011" UserAccessLevel="3">
+    <DisplayName>P_N</DisplayName>
+    <References>
+      <Reference ReferenceType="i=40">i=63</Reference>
+      <Reference IsForward="false" ReferenceType="i=35">ns=1;i=1010</Reference>
+    </References>
+  </UAVariable>
+  <UAVariable AccessLevel="7" BrowseName="1:MAN_AUT_N" DataType="i=1" Historizing="true" MinimumSamplingInterval="-1.0" NodeId="ns=1;i=1012" UserAccessLevel="3">
+    <DisplayName>MAN_AUT_N</DisplayName>
+    <References>
+      <Reference ReferenceType="i=40">i=63</Reference>
+      <Reference IsForward="false" ReferenceType="i=35">ns=1;i=1010</Reference>
+    </References>
+  </UAVariable>
+  <UAVariable AccessLevel="7" BrowseName="1:I_N" DataType="i=10" Historizing="true" MinimumSamplingInterval="-1.0" NodeId="ns=1;i=1013" UserAccessLevel="3">
+    <DisplayName>I_N</DisplayName>
+    <References>
+      <Reference ReferenceType="i=40">i=63</Reference>
+      <Reference IsForward="false" ReferenceType="i=35">ns=1;i=1010</Reference>
+    </References>
+  </UAVariable>
+  <UAVariable AccessLevel="7" BrowseName="1:SP_P" DataType="i=10" Historizing="true" MinimumSamplingInterval="-1.0" NodeId="ns=1;i=1014" UserAccessLevel="3">
+    <DisplayName>SP_P</DisplayName>
+    <References>
+      <Reference ReferenceType="i=40">i=63</Reference>
+      <Reference IsForward="false" ReferenceType="i=35">ns=1;i=1010</Reference>
+    </References>
+    <Value>
+      <uax:Float>16.5</uax:Float>
+    </Value>
+  </UAVariable>
+  <UAVariable AccessLevel="7" BrowseName="1:P_P" DataType="i=10" Historizing="true" MinimumSamplingInterval="-1.0" NodeId="ns=1;i=1015" UserAccessLevel="3">
+    <DisplayName>P_P</DisplayName>
+    <References>
+      <Reference ReferenceType="i=40">i=63</Reference>
+      <Reference IsForward="false" ReferenceType="i=35">ns=1;i=1010</Reference>
+    </References>
+  </UAVariable>
+  <UAVariable AccessLevel="7" BrowseName="1:I_P" DataType="i=10" Historizing="true" MinimumSamplingInterval="-1.0" NodeId="ns=1;i=1016" UserAccessLevel="3">
+    <DisplayName>I_P</DisplayName>
+    <References>
+      <Reference ReferenceType="i=40">i=63</Reference>
+      <Reference IsForward="false" ReferenceType="i=35">ns=1;i=1010</Reference>
+    </References>
+  </UAVariable>
+  <UAVariable AccessLevel="7" BrowseName="1:MAN_AUT_P" DataType="i=1" Historizing="true" MinimumSamplingInterval="-1.0" NodeId="ns=1;i=1017" UserAccessLevel="3">
+    <DisplayName>MAN_AUT_P</DisplayName>
+    <References>
+      <Reference ReferenceType="i=40">i=63</Reference>
+      <Reference IsForward="false" ReferenceType="i=35">ns=1;i=1010</Reference>
+    </References>
+  </UAVariable>
+  <UAObject BrowseName="1:Input_variables" NodeId="ns=1;i=1018">
+    <DisplayName>Input_variables</DisplayName>
+    <References>
+      <Reference ReferenceType="i=40">i=61</Reference>
+      <Reference IsForward="false" ReferenceType="i=35">ns=1;s=85/0:Simulation</Reference>
+    </References>
+  </UAObject>
+  <UAVariable AccessLevel="7" BrowseName="1:VE_M" DataType="i=10" Historizing="true" MinimumSamplingInterval="-1.0" NodeId="ns=1;i=1019" UserAccessLevel="3">
+    <DisplayName>VE_M</DisplayName>
+    <References>
+      <Reference ReferenceType="i=40">i=63</Reference>
+      <Reference IsForward="false" ReferenceType="i=35">ns=1;i=1018</Reference>
+    </References>
+  </UAVariable>
+  <UAObject BrowseName="1:Controlled_variables" NodeId="ns=1;i=1020">
+    <DisplayName>Controlled_variables</DisplayName>
+    <References>
+      <Reference ReferenceType="i=40">i=61</Reference>
+      <Reference IsForward="false" ReferenceType="i=35">ns=1;s=85/0:Simulation</Reference>
+    </References>
+  </UAObject>
+  <UAVariable AccessLevel="7" BrowseName="1:PG_TANK" DataType="i=10" Historizing="true" MinimumSamplingInterval="-1.0" NodeId="ns=1;i=1021" UserAccessLevel="3">
+    <DisplayName>PG_TANK</DisplayName>
+    <References>
+      <Reference ReferenceType="i=40">i=63</Reference>
+      <Reference IsForward="false" ReferenceType="i=35">ns=1;i=1020</Reference>
+    </References>
+  </UAVariable>
+  <UAVariable AccessLevel="7" BrowseName="1:NO_TANK" DataType="i=10" Historizing="true" MinimumSamplingInterval="-1.0" NodeId="ns=1;i=1022" UserAccessLevel="3">
+    <DisplayName>NO_TANK</DisplayName>
+    <References>
+      <Reference ReferenceType="i=40">i=63</Reference>
+      <Reference IsForward="false" ReferenceType="i=35">ns=1;i=1020</Reference>
+    </References>
+  </UAVariable>
+  <UAObject BrowseName="1:Output_variables" NodeId="ns=1;i=1023">
+    <DisplayName>Output_variables</DisplayName>
+    <References>
+      <Reference ReferenceType="i=40">i=61</Reference>
+      <Reference IsForward="false" ReferenceType="i=35">ns=1;s=85/0:Simulation</Reference>
+    </References>
+  </UAObject>
+  <UAVariable AccessLevel="7" BrowseName="1:VS_G" DataType="i=10" Historizing="true" MinimumSamplingInterval="-1.0" NodeId="ns=1;i=1024" UserAccessLevel="3">
+    <DisplayName>VS_G</DisplayName>
+    <References>
+      <Reference ReferenceType="i=40">i=63</Reference>
+      <Reference IsForward="false" ReferenceType="i=35">ns=1;i=1023</Reference>
+    </References>
+  </UAVariable>
+  <UAVariable AccessLevel="7" BrowseName="1:VS_O" DataType="i=10" Historizing="true" MinimumSamplingInterval="-1.0" NodeId="ns=1;i=1025" UserAccessLevel="3">
+    <DisplayName>VS_O</DisplayName>
+    <References>
+      <Reference ReferenceType="i=40">i=63</Reference>
+      <Reference IsForward="false" ReferenceType="i=35">ns=1;i=1023</Reference>
+    </References>
+  </UAVariable>
+  <UAVariable AccessLevel="7" BrowseName="1:FLARE" DataType="i=10" Historizing="true" MinimumSamplingInterval="-1.0" NodeId="ns=1;i=1026" UserAccessLevel="3">
+    <DisplayName>FLARE</DisplayName>
+    <References>
+      <Reference ReferenceType="i=40">i=63</Reference>
+      <Reference IsForward="false" ReferenceType="i=35">ns=1;i=1023</Reference>
+    </References>
+  </UAVariable>
+  <UAObject BrowseName="1:Output_manual" NodeId="ns=1;i=1027">
+    <DisplayName>Output_manual</DisplayName>
+    <References>
+      <Reference ReferenceType="i=40">i=61</Reference>
+      <Reference IsForward="false" ReferenceType="i=35">ns=1;s=85/0:Simulation</Reference>
+    </References>
+  </UAObject>
+  <UAVariable AccessLevel="7" BrowseName="1:VS_MG" DataType="i=10" Historizing="true" MinimumSamplingInterval="-1.0" NodeId="ns=1;i=1028" UserAccessLevel="3">
+    <DisplayName>VS_MG</DisplayName>
+    <References>
+      <Reference ReferenceType="i=40">i=63</Reference>
+      <Reference IsForward="false" ReferenceType="i=35">ns=1;i=1027</Reference>
+    </References>
+  </UAVariable>
+  <UAVariable AccessLevel="7" BrowseName="1:VS_MO" DataType="i=10" Historizing="true" MinimumSamplingInterval="-1.0" NodeId="ns=1;i=1029" UserAccessLevel="3">
+    <DisplayName>VS_MO</DisplayName>
+    <References>
+      <Reference ReferenceType="i=40">i=63</Reference>
+      <Reference IsForward="false" ReferenceType="i=35">ns=1;i=1027</Reference>
+    </References>
+  </UAVariable>
+  <UAObject BrowseName="1:Simulation" NodeId="ns=1;s=85/0:Simulation">
+    <DisplayName>Simulation</DisplayName>
+    <References>
+      <Reference ReferenceType="i=40">i=61</Reference>
+      <Reference IsForward="false" ReferenceType="i=35">i=85</Reference>
+    </References>
+  </UAObject>
+</UANodeSet>

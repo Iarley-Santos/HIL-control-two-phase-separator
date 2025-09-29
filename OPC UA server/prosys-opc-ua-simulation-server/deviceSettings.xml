@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<oi4Settings>
+   <deviceRevision>5.5.4-384</deviceRevision>
+   <enabled>true</enabled>
+   <hardwareRevision>5.5.4-384</hardwareRevision>
+   <manufacturer>Prosys OPC</manufacturer>
+   <manufacturerUri>prosysopc.com</manufacturerUri>
+   <model>SimulationServer</model>
+   <name>SimDevice</name>
+   <productCode>SIM</productCode>
+   <serialNumber>733158</serialNumber>
+   <softwareRevision>5.5.4-384</softwareRevision>
+   <health>NORMAL</health>
+   <healthScore>100</healthScore>
+</oi4Settings>

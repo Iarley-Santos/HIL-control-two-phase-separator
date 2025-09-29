@@ -3,8 +3,8 @@
 #include <serial_bridge.h>
 
 // Variables
-DATA_VECTOR recive_data;   // Input data received from serial
-DATA_VECTOR control;       // Output control signals to send via serial
+DATA_VECTOR_IN receive_data;   // Input data received from serial
+DATA_VECTOR_OUT control;       // Output control signals to send via serial
 
 // Initialize level PID controller with specific gains
 pid_controller pid_level(1.0, 0.0, 0.0);
@@ -38,7 +38,19 @@ void setup()
 void loop() 
 {
   // Read input data from serial
-  recive_data = serial_read_vector();
+  receive_data = serial_read_vector();
+
+  // Set Kp level controller
+  pid_level.set_kp(receive_data.numbers[2]);
+
+  // Set Ki level controller
+  pid_level.set_ki(receive_data.numbers[3]);
+
+  // Set Kp pressure controller
+  pid_pressure.set_kp(receive_data.numbers[4]);
+
+  // Set Ki pressure controller
+  pid_pressure.set_ki(receive_data.numbers[5]);
 
   now = millis();
 
@@ -48,9 +60,28 @@ void loop()
     last_time = now;
 
     // Compute control signals using PID controllers
-    control.numbers[0] = pid_level.pid_calculation(recive_data.numbers[0], dt);
-    control.numbers[1] = pid_pressure.pid_calculation(recive_data.numbers[1], dt);
+    control.numbers[0] = pid_level.pid_calculation(receive_data.numbers[0], dt);
+    control.numbers[1] = pid_pressure.pid_calculation(receive_data.numbers[1], dt);
   }
+
+  if(control.numbers[0] >= 100)
+  {
+    control.numbers[0] = 100;
+  }
+  else if(control.numbers[0] < 0)
+  {
+    control.numbers[0] = 0;
+  }
+
+  if(control.numbers[1] >= 100)
+  {
+    control.numbers[1] = 100;
+  }
+  else if(control.numbers[1] < 0)
+  {
+    control.numbers[1] = 0;
+  }
+
 
   // Send control signals back via serial
   serial_write_vector(control.numbers[0], control.numbers[1]);

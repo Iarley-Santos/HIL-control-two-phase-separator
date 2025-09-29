@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<applicationSettings>
+   <OI4ModeEnabled>false</OI4ModeEnabled>
+   <alwaysSaveOnClose>false</alwaysSaveOnClose>
+   <autosave>true</autosave>
+   <configurationVersion>1</configurationVersion>
+   <expertModeEnabled>true</expertModeEnabled>
+   <ignoreCaMissingCrl>false</ignoreCaMissingCrl>
+   <ignoreKeyUsageChecks>false</ignoreKeyUsageChecks>
+   <linkSimulationTabs>true</linkSimulationTabs>
+   <maxConnectionLogEntries>1000</maxConnectionLogEntries>
+   <resetSimulationsOnStart>false</resetSimulationsOnStart>
+   <showAllAttributes>false</showAllAttributes>
+   <showDataTypeNameTooltip>true</showDataTypeNameTooltip>
+   <showModellingRule>true</showModellingRule>
+   <showTypeName>true</showTypeName>
+   <showTypeNameTooltip>false</showTypeNameTooltip>
+   <showValuePlot>true</showValuePlot>
+   <simulateMethods>false</simulateMethods>
+   <simulationActive>true</simulationActive>
+   <simulationInterval>1000</simulationInterval>
+   <trackModelChanges>false</trackModelChanges>
+</applicationSettings>

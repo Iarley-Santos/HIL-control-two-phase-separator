@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<projectSettings>
+   <namespaces>
+      <namespace index="6" enabled="true" locked="false" color="0xffffffff">http://www.prosysopc.com/OPCUA/SampleAddressSpace</namespace>
+      <namespace index="0" enabled="true" locked="false" color="0xffffffff">http://opcfoundation.org/UA/</namespace>
+      <namespace index="3" enabled="true" locked="false" color="0xffffffff">http://www.prosysopc.com/OPCUA/SimulationNodes/</namespace>
+      <namespace index="2" enabled="true" locked="false" color="0xffffffff">http://www.prosysopc.com/OPCUA/SimulationServer/</namespace>
+      <namespace index="5" enabled="true" locked="false" color="0xffffffff">http://www.prosysopc.com/OPCUA/StaticNodes</namespace>
+      <namespace index="4" enabled="true" locked="false" color="0xffffffff">http://www.prosysopc.com/OPCUA/SimulationNodes/SimulationConfiguration/</namespace>
+   </namespaces>
+   <version>5.5.4-384</version>
+</projectSettings>

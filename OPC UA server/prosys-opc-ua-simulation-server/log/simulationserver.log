@@ -1,0 +1,153 @@
+09/22/2025 23:07:53.547 INFO  [SimulationServer]                com.prosysopc.ua.app.simserver.i  [] - Prosys OPC UA Simulation Server v5.5.4-384 is starting...
+09/22/2025 23:07:53.687 INFO  [ClassLoading async optimizations 2]                  com.prosysopc.ua.stack.utils.i  [] - Using CryptoProvider com.prosysopc.ua.stack.transport.security.c
+09/22/2025 23:07:53.722 INFO  [SimulationServer]                com.prosysopc.ua.app.simserver.i  [] - UI is enabled.
+09/22/2025 23:07:53.725 INFO  [SimulationServer]                com.prosysopc.ua.app.simserver.i  [] - Creating service manager...
+09/22/2025 23:07:54.498 INFO  [SimulationServer]                  com.prosysopc.ua.UaApplication  [] - Prosys OPC UA SDK for Java version 5.3.0-181
+09/22/2025 23:07:54.499 INFO  [SimulationServer]                  com.prosysopc.ua.UaApplication  [] - (c) Prosys OPC Ltd. <http://www.prosysopc.com>
+09/22/2025 23:07:58.436 INFO  [Hostname Resolver] com.prosysopc.ua.app.simserver.HostnameResolver  [] - Hostname: OmeuPc
+09/22/2025 23:08:00.014 INFO  [SimulationServer]                com.prosysopc.ua.app.simserver.i  [] - Service manager created.
+09/22/2025 23:08:00.024 INFO  [c STARTING]       com.prosysopc.ua.app.simserver.services.c  [] - Services for start order INIT: [ProjectSettingsService [NEW], ApplicationSettingsService [NEW]]
+09/22/2025 23:08:00.028 INFO  [c STARTING]       com.prosysopc.ua.app.simserver.services.c  [] - Services for start order BEFORE_SERVER_SET_UP: [ServerPreSetUpService [NEW], MainWindowService [NEW], LicenseService [NEW], OI4SettingsService [NEW], ServerSettingsService [NEW]]
+09/22/2025 23:08:00.028 INFO  [c STARTING]       com.prosysopc.ua.app.simserver.services.c  [] - Services for start order SERVER_SET_UP: [ServerSetUpService [NEW]]
+09/22/2025 23:08:00.028 INFO  [c STARTING]       com.prosysopc.ua.app.simserver.services.c  [] - Services for start order AFTER_SERVER_SET_UP: [NamespaceService [NEW], PubSubSettingsService [NEW]]
+09/22/2025 23:08:00.029 INFO  [c STARTING]       com.prosysopc.ua.app.simserver.services.c  [] - Services for start order BEFORE_SERVER_START: [PublisherSetUpService [NEW], SimulationConfigurationService [NEW]]
+09/22/2025 23:08:00.029 INFO  [c STARTING]       com.prosysopc.ua.app.simserver.services.c  [] - Services for start order SERVER_START: [ServerStartService [NEW]]
+09/22/2025 23:08:00.029 INFO  [c STARTING]       com.prosysopc.ua.app.simserver.services.c  [] - Services for start order AFTER_SERVER_START: [ServerViewsService [NEW], ValueSimulatorService [NEW]]
+09/22/2025 23:08:00.029 INFO  [c STARTING]       com.prosysopc.ua.app.simserver.services.c  [] - Services for start order RUNNING: [FinalViewsService [NEW], ProjectAutosaveService [NEW], PublisherStartService [NEW]]
+09/22/2025 23:08:00.033 INFO  [c STARTING]       com.prosysopc.ua.app.simserver.services.c  [] - Starting services: [ProjectSettingsService [NEW], ApplicationSettingsService [NEW]]
+09/22/2025 23:08:00.033 INFO  [ProjectSettingsService STARTING] com.prosysopc.ua.app.simserver.settings.ProjectSettingsService  [] - startUp
+09/22/2025 23:08:00.034 INFO  [ProjectSettingsService STARTING] com.prosysopc.ua.app.simserver.settings.ProjectSettingsService  [] - Extracting project file at C:\Users\rodri\.prosysopc\prosys-opc-ua-simulation-server\default.simconf
+09/22/2025 23:08:00.058 INFO  [ApplicationSettingsService STARTING] com.prosysopc.ua.app.simserver.settings.ApplicationSettingsService  [] - Loaded application settings from C:\Users\rodri\.prosysopc\prosys-opc-ua-simulation-server\applicationSettings.xml.
+09/22/2025 23:08:00.059 INFO  [ApplicationSettingsService STARTING] com.prosysopc.ua.app.simserver.settings.ApplicationSettingsService  [] - Configuration version: 1
+09/22/2025 23:08:00.063 INFO  [ProjectSettingsService STARTING] com.prosysopc.ua.app.simserver.settings.ProjectSettingsService  [] - Extracted project file entry: instances/Instances_idx_3.NodeSet2.xml
+09/22/2025 23:08:00.064 INFO  [ProjectSettingsService STARTING] com.prosysopc.ua.app.simserver.settings.ProjectSettingsService  [] - Extracted project file entry: simconf.xml
+09/22/2025 23:08:00.066 INFO  [ProjectSettingsService STARTING] com.prosysopc.ua.app.simserver.settings.ProjectSettingsService  [] - Extracted project file entry: simulations/Simulations_idx_4.NodeSet2.xml
+09/22/2025 23:08:00.069 INFO  [ProjectSettingsService STARTING] com.prosysopc.ua.app.simserver.settings.ProjectSettingsService  [] - Loading project settings from C:\Users\rodri\.prosysopc\prosys-opc-ua-simulation-server\simconf\simconf.xml.
+09/22/2025 23:08:00.071 INFO  [ProjectSettingsService STARTING] com.prosysopc.ua.app.simserver.settings.ProjectSettingsService  [] - Project settings loaded.
+09/22/2025 23:08:00.075 INFO  [c STARTING]       com.prosysopc.ua.app.simserver.services.c  [] - Service startup times: {ApplicationSettingsService [RUNNING]=25, ProjectSettingsService [RUNNING]=40}
+09/22/2025 23:08:00.075 INFO  [c STARTING]       com.prosysopc.ua.app.simserver.services.c  [] - Starting services: [ServerPreSetUpService [NEW], MainWindowService [NEW], LicenseService [NEW], OI4SettingsService [NEW], ServerSettingsService [NEW]]
+09/22/2025 23:08:00.076 INFO  [ServerPreSetUpService STARTING]    com.prosysopc.ua.app.simserver.server.Server  [] - Setting up server...
+09/22/2025 23:08:00.076 INFO  [MainWindowService STARTING]            com.prosysopc.ua.app.simserver.ui.UI  [] - Launching UI...
+09/22/2025 23:08:00.076 INFO  [LicenseService STARTING] com.prosysopc.ua.app.simserver.license.LicenseService  [] - Starting license manager...
+09/22/2025 23:08:00.077 INFO  [LicenseService STARTING] com.prosysopc.ua.app.simserver.license.LicenseService  [] - Searching for license file at C:\Users\rodri\.prosysopc\prosys-opc-ua-simulation-server\license.lic.
+09/22/2025 23:08:00.077 INFO  [LicenseService STARTING] com.prosysopc.ua.app.simserver.license.LicenseService  [] - No license file found, using Free license.
+09/22/2025 23:08:00.078 INFO  [LicenseService STARTING] com.prosysopc.ua.app.simserver.license.LicenseService  [] - License manager started.
+09/22/2025 23:08:00.078 INFO  [OI4SettingsService STARTING] com.prosysopc.ua.app.simserver.settings.OI4SettingsService  [] - Loaded OI4 settings from C:\Users\rodri\.prosysopc\prosys-opc-ua-simulation-server\deviceSettings.xml.
+09/22/2025 23:08:00.080 INFO  [ServerSettingsService STARTING] com.prosysopc.ua.app.simserver.settings.ServerSettingsService  [] - Loaded server settings from C:\Users\rodri\.prosysopc\prosys-opc-ua-simulation-server\serverSettings.xml.
+09/22/2025 23:08:00.105 INFO  [MainWindowService STARTING]            com.prosysopc.ua.app.simserver.ui.UI  [] - Loaded fonts:Font[name=Roboto, family=Roboto, style=Regular, size=12.0]
+09/22/2025 23:08:00.116 INFO  [MainWindowService STARTING]            com.prosysopc.ua.app.simserver.ui.UI  [] - Loaded fonts:Font[name=Roboto Bold, family=Roboto, style=Bold, size=12.0]
+09/22/2025 23:08:00.127 INFO  [MainWindowService STARTING]            com.prosysopc.ua.app.simserver.ui.UI  [] - Loaded fonts:Font[name=Roboto Italic, family=Roboto, style=Italic, size=12.0]
+09/22/2025 23:08:00.136 INFO  [ServerPreSetUpService STARTING]                              com.prosysopc.ua.g  [] - Reading application certificate from C:\Users\rodri\.prosysopc\prosys-opc-ua-simulation-server\PKI\CA\private\SimulationServer@OmeuPc_2048.der
+09/22/2025 23:08:00.137 INFO  [ServerPreSetUpService STARTING]                              com.prosysopc.ua.g  [] - Reading private key from keystore C:\Users\rodri\.prosysopc\prosys-opc-ua-simulation-server\PKI\CA\private\SimulationServer@OmeuPc_2048.pem
+09/22/2025 23:08:00.139 INFO  [MainWindowService STARTING]            com.prosysopc.ua.app.simserver.ui.UI  [] - Loaded fonts:Font[name=Roboto Bold Italic, family=Roboto, style=Bold Italic, size=12.0]
+09/22/2025 23:08:00.154 INFO  [ServerPreSetUpService STARTING]                              com.prosysopc.ua.g  [] - Issuer certificate loaded from C:\Users\rodri\.prosysopc\prosys-opc-ua-simulation-server\PKI\CA\private\SimulationServerCA.der
+09/22/2025 23:08:00.156 INFO  [ServerPreSetUpService STARTING]                              com.prosysopc.ua.g  [] - Issuer private key loaded from C:\Users\rodri\.prosysopc\prosys-opc-ua-simulation-server\PKI\CA\private\SimulationServerCA.pem
+09/22/2025 23:08:00.165 INFO  [ServerPreSetUpService STARTING]                              com.prosysopc.ua.g  [] - HTTPS certificate loaded from C:\Users\rodri\.prosysopc\prosys-opc-ua-simulation-server\PKI\CA\private\SimulationServer@OmeuPc_https_2048.der
+09/22/2025 23:08:00.166 INFO  [ServerPreSetUpService STARTING]                              com.prosysopc.ua.g  [] - HTTPS private key loaded from C:\Users\rodri\.prosysopc\prosys-opc-ua-simulation-server\PKI\CA\private\SimulationServer@OmeuPc_https_2048.pem
+09/22/2025 23:08:00.262 INFO  [MainWindowService STARTING]            com.prosysopc.ua.app.simserver.ui.UI  [] - Loading initial views...
+09/22/2025 23:08:00.269 INFO  [MainWindowService STARTING]            com.prosysopc.ua.app.simserver.ui.UI  [] - Initial views loading scheduled.
+09/22/2025 23:08:00.269 INFO  [c STARTING]       com.prosysopc.ua.app.simserver.services.c  [] - Service startup times: {LicenseService [RUNNING]=2, OI4SettingsService [RUNNING]=3, ServerSettingsService [RUNNING]=5, ServerPreSetUpService [RUNNING]=91, MainWindowService [RUNNING]=193}
+09/22/2025 23:08:00.269 INFO  [c STARTING]       com.prosysopc.ua.app.simserver.services.c  [] - Starting services: [ServerSetUpService [NEW]]
+09/22/2025 23:08:00.285 INFO  [ServerSetUpService STARTING]    com.prosysopc.ua.app.simserver.server.Server  [] - Using server settings: com.prosysopc.ua.app.simserver.settings.ServerSettingsService$ServerSettings@17691664[
+  opcTcpAddresses=[]
+  httpsAddresses=[]
+  userTokenPolicies=[UserTokenPolicy [PolicyId="anonymous", TokenType="Anonymous", IssuedTokenType="null", IssuerEndpointUrl="null", SecurityPolicyUri="null"], UserTokenPolicy [PolicyId="username_basic256", TokenType="UserName", IssuedTokenType="null", IssuerEndpointUrl="null", SecurityPolicyUri="http://opcfoundation.org/UA/SecurityPolicy#Basic256"], UserTokenPolicy [PolicyId="certificate_basic256", TokenType="Certificate", IssuedTokenType="null", IssuerEndpointUrl="null", SecurityPolicyUri="http://opcfoundation.org/UA/SecurityPolicy#Basic256"], UserTokenPolicy [PolicyId="username_basic256sha256", TokenType="UserName", IssuedTokenType="null", IssuerEndpointUrl="null", SecurityPolicyUri="http://opcfoundation.org/UA/SecurityPolicy#Basic256Sha256"], UserTokenPolicy [PolicyId="certificate_basic256sha256", TokenType="Certificate", IssuedTokenType="null", IssuerEndpointUrl="null", SecurityPolicyUri="http://opcfoundation.org/UA/SecurityPolicy#Basic256Sha256"]]
+  users=[]
+  opcTcpMessageSecurityModes=[None, Sign, SignAndEncrypt]
+  httpsMessageSecurityModes=[None, Sign]
+  httpsSecurityPolicies=[http://opcfoundation.org/UA/SecurityPolicy#TLS-1-2-PFS, http://opcfoundation.org/UA/SecurityPolicy#TLS-1-0, http://opcfoundation.org/UA/SecurityPolicy#TLS-1-1]
+  securityPolicies=[http://opcfoundation.org/UA/SecurityPolicy#Aes256_Sha256_RsaPss, http://opcfoundation.org/UA/SecurityPolicy#Basic128Rsa15, http://opcfoundation.org/UA/SecurityPolicy#Basic256, http://opcfoundation.org/UA/SecurityPolicy#Aes128_Sha256_RsaOaep, http://opcfoundation.org/UA/SecurityPolicy#Basic256Sha256]
+  reverseConnections=[]
+  diagnosticsEnabled=true
+  maxSessionCount=50
+  maxMonitoredItemsPerSubscriptionCount=10000
+  maxSubscriptionsPerSessionCount=50
+  synchronizeStructures=true
+  maxSessionTimeout=3600000
+  useAllIPAddresses=true
+  useOpcTcp=true
+  useHttps=false
+  useIPv6=true
+  validateApplicationUriInCertificate=true
+  registerToDiscoveryServer=false
+  opcTcpPort=53530
+  httpsPort=53443
+  opcTcpServerName=OPCUA/SimulationServer
+  httpsServerName=OPCUA/SimulationServer
+  discoveryServerUrl=opc.tcp://localhost:4840
+]
+09/22/2025 23:08:00.432 INFO  [ServerSetUpService STARTING]                       com.prosysopc.ua.server.K  [] - Loading information model jar:file:/D:/Prosys%20OPC%20UA%20Simulation%20Server/lib/app-5.5.4-384.jar!/com/prosysopc/ua/types/opcua/server/Opc.Ua.NodeSet2.xml
+09/22/2025 23:08:02.211 INFO  [ServerSetUpService STARTING]                       com.prosysopc.ua.server.K  [] - Loaded: ModelInfo [namespace=http://opcfoundation.org/UA/, version=1.05.04, publicationDate=2024-12-01 00:00:00.0000000 GMT, dependencies=[]]
+09/22/2025 23:08:02.219 INFO  [ServerSetUpService STARTING]    com.prosysopc.ua.app.simserver.server.Server  [] - Server set up completed.
+09/22/2025 23:08:02.220 INFO  [c STARTING]       com.prosysopc.ua.app.simserver.services.c  [] - Service startup times: {ServerSetUpService [RUNNING]=1949}
+09/22/2025 23:08:02.220 INFO  [c STARTING]       com.prosysopc.ua.app.simserver.services.c  [] - Starting services: [NamespaceService [NEW], PubSubSettingsService [NEW]]
+09/22/2025 23:08:02.221 INFO  [NamespaceService STARTING] com.prosysopc.ua.app.simserver.server.namespaces.NamespaceService  [] - Starting namespace manager...
+09/22/2025 23:08:02.222 INFO  [NamespaceService STARTING] com.prosysopc.ua.app.simserver.server.namespaces.NamespaceService  [] - Using project settings: com.prosysopc.ua.app.simserver.settings.ProjectSettingsService$ProjectSettings@6e753850[
+  namespaces=[[uri=http://www.prosysopc.com/OPCUA/SampleAddressSpace, index=6, enabled=true], [uri=http://opcfoundation.org/UA/, index=0, enabled=true], [uri=http://www.prosysopc.com/OPCUA/SimulationNodes/, index=3, enabled=true], [uri=http://www.prosysopc.com/OPCUA/SimulationServer/, index=2, enabled=true], [uri=http://www.prosysopc.com/OPCUA/StaticNodes, index=5, enabled=true], [uri=http://www.prosysopc.com/OPCUA/SimulationNodes/SimulationConfiguration/, index=4, enabled=true]]
+  version=5.5.4-384
+]
+09/22/2025 23:08:02.227 INFO  [NamespaceService STARTING]                       com.prosysopc.ua.server.L  [] - Loading model from jar:file:/D:/Prosys%20OPC%20UA%20Simulation%20Server/lib/app-5.5.4-384.jar!/uamodel/Opc.Ua.SimulationServer.NodeSet2.xml
+09/22/2025 23:08:02.481 INFO  [PubSubSettingsService STARTING] com.prosysopc.ua.app.simserver.settings.PubSubSettingsService  [] - Loaded PubSub configuration from C:\Users\rodri\.prosysopc\prosys-opc-ua-simulation-server\pubSubConfiguration.properties.
+09/22/2025 23:08:02.485 INFO  [PubSubSettingsService STARTING] com.prosysopc.ua.app.simserver.settings.PubSubSettingsService  [] - Loaded mqtt settings from C:\Users\rodri\.prosysopc\prosys-opc-ua-simulation-server\mqttSettings.xml.
+09/22/2025 23:08:02.630 INFO  [NamespaceService STARTING] com.prosysopc.ua.app.simserver.server.namespaces.NamespaceService  [] - Loading Namespace: http://www.prosysopc.com/OPCUA/SimulationNodes/
+09/22/2025 23:08:02.631 INFO  [NamespaceService STARTING] com.prosysopc.ua.app.simserver.server.namespaces.NamespaceService  [] - loading NodeSet from: C:\Users\rodri\.prosysopc\prosys-opc-ua-simulation-server\simconf\instances\Instances_idx_3.NodeSet2.xml
+09/22/2025 23:08:02.648 INFO  [NamespaceService STARTING] com.prosysopc.ua.app.simserver.server.namespaces.NamespaceService  [] - Loading Namespace: http://www.prosysopc.com/OPCUA/SimulationNodes/SimulationConfiguration/
+09/22/2025 23:08:02.649 INFO  [NamespaceService STARTING] com.prosysopc.ua.app.simserver.server.namespaces.NamespaceService  [] - loading NodeSet from: C:\Users\rodri\.prosysopc\prosys-opc-ua-simulation-server\simconf\simulations\Simulations_idx_4.NodeSet2.xml
+09/22/2025 23:08:02.705 INFO  [NamespaceService STARTING] com.prosysopc.ua.app.simserver.server.namespaces.NamespaceService  [] - Namespace manager started.
+09/22/2025 23:08:02.705 INFO  [c STARTING]       com.prosysopc.ua.app.simserver.services.c  [] - Service startup times: {PubSubSettingsService [RUNNING]=265, NamespaceService [RUNNING]=485}
+09/22/2025 23:08:02.705 INFO  [c STARTING]       com.prosysopc.ua.app.simserver.services.c  [] - Starting services: [PublisherSetUpService [NEW], SimulationConfigurationService [NEW]]
+09/22/2025 23:08:02.707 INFO  [PublisherSetUpService STARTING] com.prosysopc.ua.app.simserver.pubsub.PubSubPublisher  [] - Setting up PubSub...
+09/22/2025 23:08:02.707 INFO  [SimulationConfigurationService STARTING] com.prosysopc.ua.app.simserver.simulation.SimulationConfigurationService  [] - Loading simulation configuration...
+09/22/2025 23:08:02.707 INFO  [PublisherSetUpService STARTING] com.prosysopc.ua.app.simserver.settings.PubSubSettingsService  [] - Not licensed: Using restricted pubsub configuration
+09/22/2025 23:08:02.710 WARN  [PublisherSetUpService STARTING]         com.prosysopc.ua.app.simserver.pubsub.l  [] - PubSub connection Connection1 has empty connection address
+09/22/2025 23:08:02.841 INFO  [SimulationConfigurationService STARTING] com.prosysopc.ua.app.simserver.simulation.SimulationConfigurationService  [] - Loaded simulation configuration.
+09/22/2025 23:08:02.842 INFO  [c STARTING]       com.prosysopc.ua.app.simserver.services.c  [] - Service startup times: {PublisherSetUpService [RUNNING]=14, SimulationConfigurationService [RUNNING]=134}
+09/22/2025 23:08:02.842 INFO  [c STARTING]       com.prosysopc.ua.app.simserver.services.c  [] - Starting services: [ServerStartService [NEW]]
+09/22/2025 23:08:02.843 INFO  [ServerStartService STARTING]    com.prosysopc.ua.app.simserver.server.Server  [] - Starting server...
+09/22/2025 23:08:02.894 INFO  [ServerStartService STARTING]      com.prosysopc.ua.stack.transport.tcp.nio.f  [] - TCP/IP Socket bound to /[0:0:0:0:0:0:0:0]:53530
+09/22/2025 23:08:02.895 INFO  [ServerStartService STARTING]                      com.prosysopc.ua.server.ar  [] - Server endpoint: opc.tcp://OmeuPc:53530/OPCUA/SimulationServer
+09/22/2025 23:08:02.896 INFO  [ServerStartService STARTING]                      com.prosysopc.ua.server.ar  [] - * Endpoint bound to: [0:0:0:0:0:0:0:0:53530]
+09/22/2025 23:08:02.896 INFO  [ServerStartService STARTING]                      com.prosysopc.ua.server.ar  [] - * Endpoint MessageSecurityModes: [None, Sign, SignAndEncrypt]
+09/22/2025 23:08:02.896 INFO  [ServerStartService STARTING]                      com.prosysopc.ua.server.ar  [] - * Endpoint SecurityPolicies: [Basic128Rsa15, Basic256, Basic256Sha256, Aes128Sha256RsaOaep, Aes256Sha256RsaPss]
+09/22/2025 23:08:02.897 INFO  [ServerStartService STARTING]    com.prosysopc.ua.app.simserver.server.Server  [] - Server started.
+09/22/2025 23:08:02.897 INFO  [c STARTING]       com.prosysopc.ua.app.simserver.services.c  [] - Service startup times: {ServerStartService [RUNNING]=55}
+09/22/2025 23:08:02.897 INFO  [c STARTING]       com.prosysopc.ua.app.simserver.services.c  [] - Starting services: [ServerViewsService [NEW], ValueSimulatorService [NEW]]
+09/22/2025 23:08:02.898 INFO  [ServerViewsService STARTING]            com.prosysopc.ua.app.simserver.ui.UI  [] - Loading simulation views...
+09/22/2025 23:08:02.898 INFO  [ValueSimulatorService STARTING] com.prosysopc.ua.app.simserver.simulation.value.ValueSimulatorService  [] - Starting simulator...
+09/22/2025 23:08:03.056 INFO  [ServerViewsService STARTING]            com.prosysopc.ua.app.simserver.ui.UI  [] - Initializing address space views..
+09/22/2025 23:08:03.057 INFO  [ServerViewsService STARTING]            com.prosysopc.ua.app.simserver.ui.UI  [] - Loading server views async...
+09/22/2025 23:08:03.070 INFO  [ServerViewsService STARTING]            com.prosysopc.ua.app.simserver.ui.UI  [] - Server views loading scheduling completed.
+09/22/2025 23:08:03.071 INFO  [c STARTING]       com.prosysopc.ua.app.simserver.services.c  [] - Service startup times: {ValueSimulatorService [RUNNING]=1, ServerViewsService [RUNNING]=173}
+09/22/2025 23:08:03.072 INFO  [c STARTING]       com.prosysopc.ua.app.simserver.services.c  [] - Starting services: [FinalViewsService [NEW], ProjectAutosaveService [NEW], PublisherStartService [NEW]]
+09/22/2025 23:08:03.073 INFO  [ProjectAutosaveService STARTING] com.prosysopc.ua.app.simserver.settings.ProjectSettingsService  [] - Starting autosaver...
+09/22/2025 23:08:03.073 INFO  [FinalViewsService STARTING]            com.prosysopc.ua.app.simserver.ui.UI  [] - Loading simulation views...
+09/22/2025 23:08:03.079 INFO  [FinalViewsService STARTING]            com.prosysopc.ua.app.simserver.ui.UI  [] - Simulation views loaded.
+09/22/2025 23:08:03.083 INFO  [FinalViewsService STARTING]            com.prosysopc.ua.app.simserver.ui.UI  [] - UI launched (10396ms).
+09/22/2025 23:08:03.084 INFO  [c STARTING]       com.prosysopc.ua.app.simserver.services.c  [] - Service startup times: {PublisherStartService [RUNNING]=0, ProjectAutosaveService [RUNNING]=4, FinalViewsService [RUNNING]=12}
+09/22/2025 23:08:03.619 INFO  [JavaFX Application Thread] com.prosysopc.ua.app.simserver.settings.PubSubSettingsService  [] - Not licensed: Using restricted pubsub configuration
+09/22/2025 23:08:03.662 WARN  [JavaFX Application Thread] com.prosysopc.ua.app.simserver.ui.tabs.pubsub.connection.j  [] - hostname is null
+09/22/2025 23:08:03.662 WARN  [JavaFX Application Thread] com.prosysopc.ua.app.simserver.ui.tabs.pubsub.connection.j  [] - hostname is null
+09/22/2025 23:08:03.818 INFO  [JavaFX Application Thread] com.prosysopc.ua.app.simserver.settings.PubSubSettingsService  [] - Not licensed: Using restricted pubsub configuration
+09/22/2025 23:19:42.442 INFO  [c STOPPING]       com.prosysopc.ua.app.simserver.services.c  [] - Stopping services: [PublisherStartService [RUNNING], ProjectAutosaveService [RUNNING], FinalViewsService [RUNNING]]
+09/22/2025 23:19:42.443 INFO  [ProjectAutosaveService STOPPING] com.prosysopc.ua.app.simserver.settings.ProjectSettingsService  [] - Autosaver terminated.
+09/22/2025 23:19:42.444 INFO  [c STOPPING]       com.prosysopc.ua.app.simserver.services.c  [] - Stopping services: [ValueSimulatorService [RUNNING], ServerViewsService [RUNNING]]
+09/22/2025 23:19:42.444 INFO  [ValueSimulatorService STOPPING] com.prosysopc.ua.app.simserver.simulation.value.ValueSimulatorService  [] - Stopped simulator.
+09/22/2025 23:19:42.445 INFO  [c STOPPING]       com.prosysopc.ua.app.simserver.services.c  [] - Stopping services: [ServerStartService [RUNNING]]
+09/22/2025 23:19:42.445 INFO  [c STOPPING]       com.prosysopc.ua.app.simserver.services.c  [] - Stopping services: [PublisherSetUpService [RUNNING], SimulationConfigurationService [RUNNING]]
+09/22/2025 23:19:42.446 INFO  [PublisherSetUpService STOPPING] com.prosysopc.ua.app.simserver.pubsub.PubSubPublisher  [] - PubSubSystem already stopped...
+09/22/2025 23:19:42.446 INFO  [c STOPPING]       com.prosysopc.ua.app.simserver.services.c  [] - Stopping services: [PubSubSettingsService [RUNNING], NamespaceService [RUNNING]]
+09/22/2025 23:19:42.447 INFO  [NamespaceService STOPPING] com.prosysopc.ua.app.simserver.server.namespaces.NamespaceService  [] - NamespaceService shutdown
+09/22/2025 23:19:42.482 INFO  [c STOPPING]       com.prosysopc.ua.app.simserver.services.c  [] - Stopping services: [ServerSetUpService [RUNNING]]
+09/22/2025 23:19:42.483 INFO  [ServerSetUpService STOPPING]    com.prosysopc.ua.app.simserver.server.Server  [] - Shutting down server...
+09/22/2025 23:19:42.484 INFO  [ServerSetUpService STOPPING]                      com.prosysopc.ua.server.ar  [] - Shutdown: Delay (s)=1; Reason=(en) Closed by user.
+09/22/2025 23:19:42.485 INFO  [ServerSetUpService STOPPING]                      com.prosysopc.ua.stack.a.e  [] - Server Server urn:OmeuPc:OPCUA:SimulationServer closed
+09/22/2025 23:19:43.488 INFO  [ServerSetUpService STOPPING]      com.prosysopc.ua.stack.transport.tcp.nio.f  [] - null closed
+09/22/2025 23:19:43.488 INFO  [ServerSetUpService STOPPING]                      com.prosysopc.ua.stack.a.e  [] - Server Server urn:OmeuPc:OPCUA:SimulationServer closed
+09/22/2025 23:19:43.489 INFO  [ServerSetUpService STOPPING]                      com.prosysopc.ua.server.ar  [] - UaServer closed.
+09/22/2025 23:19:43.489 INFO  [ServerSetUpService STOPPING]    com.prosysopc.ua.app.simserver.server.Server  [] - Server shutdown completed.
+09/22/2025 23:19:43.489 INFO  [c STOPPING]       com.prosysopc.ua.app.simserver.services.c  [] - Stopping services: [LicenseService [RUNNING], OI4SettingsService [RUNNING], ServerSettingsService [RUNNING], ServerPreSetUpService [RUNNING], MainWindowService [RUNNING]]
+09/22/2025 23:19:43.490 INFO  [MainWindowService STOPPING]            com.prosysopc.ua.app.simserver.ui.UI  [] - UI closed.
+09/22/2025 23:19:43.491 INFO  [ServerSettingsService STOPPING] com.prosysopc.ua.app.simserver.settings.ServerSettingsService  [] - Saved server settings to C:\Users\rodri\.prosysopc\prosys-opc-ua-simulation-server\serverSettings.xml.
+09/22/2025 23:19:43.493 INFO  [c STOPPING]       com.prosysopc.ua.app.simserver.services.c  [] - Stopping services: [ApplicationSettingsService [RUNNING], ProjectSettingsService [RUNNING]]
+09/22/2025 23:19:43.495 INFO  [ApplicationSettingsService STOPPING] com.prosysopc.ua.app.simserver.settings.ApplicationSettingsService  [] - Saved application settings to C:\Users\rodri\.prosysopc\prosys-opc-ua-simulation-server\applicationSettings.xml.
+09/22/2025 23:19:43.508 INFO  [Thread-3]                com.prosysopc.ua.app.simserver.i  [] - Shutting down logging

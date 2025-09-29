@@ -2,7 +2,7 @@
 
 void serial_write_vector(float value1, float value2) 
 {
-    DATA_VECTOR a;
+    DATA_VECTOR_OUT a;
     a.numbers[0] = value1;
     a.numbers[1] = value2;
 
@@ -14,14 +14,14 @@ void serial_write_vector(float value1, float value2)
     Serial.print('\n');
 }
 
-DATA_VECTOR serial_read_vector() 
+DATA_VECTOR_IN serial_read_vector() 
 {
-    DATA_VECTOR f;
+    DATA_VECTOR_IN f;
 
     while (Serial.read() != 'B') {;}
 
     int cont = 0;
-    while (cont < 8) 
+    while (cont < 24) 
     {
         if (Serial.available() > 0) 
         {

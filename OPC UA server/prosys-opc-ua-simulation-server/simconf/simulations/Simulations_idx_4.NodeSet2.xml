@@ -1,0 +1,544 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<UANodeSet xmlns="http://opcfoundation.org/UA/2011/03/UANodeSet.xsd" xmlns:s1="http://www.prosysopc.com/OPCUA/SimulationNodes/SimulationConfiguration/Types.xsd" xmlns:s2="http://www.prosysopc.com/OPCUA/SimulationServer/Types.xsd" xmlns:s3="http://www.prosysopc.com/OPCUA/SimulationNodes/Types.xsd" xmlns:uax="http://opcfoundation.org/UA/2008/02/Types.xsd">
+  <NamespaceUris>
+    <Uri>http://www.prosysopc.com/OPCUA/SimulationNodes/SimulationConfiguration/</Uri>
+    <Uri>http://www.prosysopc.com/OPCUA/SimulationServer/</Uri>
+    <Uri>http://www.prosysopc.com/OPCUA/SimulationNodes/</Uri>
+  </NamespaceUris>
+  <UAObject BrowseName="2:ValueSimulation" NodeId="ns=1;i=1001">
+    <DisplayName>ValueSimulation</DisplayName>
+    <Description>Simulation configuration for counter values.</Description>
+    <References>
+      <Reference IsForward="false" ReferenceType="ns=2;i=4002">ns=3;i=1001</Reference>
+      <Reference ReferenceType="i=40">ns=2;i=1004</Reference>
+      <Reference IsForward="false" ReferenceType="i=35">ns=2;i=5003</Reference>
+    </References>
+  </UAObject>
+  <UAObject BrowseName="2:ValueSimulation" NodeId="ns=1;i=1002">
+    <DisplayName>ValueSimulation</DisplayName>
+    <Description>Simulation configuration for random values.</Description>
+    <References>
+      <Reference IsForward="false" ReferenceType="ns=2;i=4002">ns=3;i=1002</Reference>
+      <Reference ReferenceType="i=40">ns=2;i=1005</Reference>
+      <Reference IsForward="false" ReferenceType="i=35">ns=2;i=5003</Reference>
+    </References>
+  </UAObject>
+  <UAObject BrowseName="2:ValueSimulation" NodeId="ns=1;i=1003">
+    <DisplayName>ValueSimulation</DisplayName>
+    <Description>Simulation configuration for sawtooth wave values.</Description>
+    <References>
+      <Reference IsForward="false" ReferenceType="ns=2;i=4002">ns=3;i=1003</Reference>
+      <Reference ReferenceType="i=40">ns=2;i=1008</Reference>
+      <Reference IsForward="false" ReferenceType="i=35">ns=2;i=5003</Reference>
+    </References>
+  </UAObject>
+  <UAObject BrowseName="2:ValueSimulation" NodeId="ns=1;i=1004">
+    <DisplayName>ValueSimulation</DisplayName>
+    <Description>Simulation configuration for sinusoidal wave values.</Description>
+    <References>
+      <Reference IsForward="false" ReferenceType="ns=2;i=4002">ns=3;i=1004</Reference>
+      <Reference ReferenceType="i=40">ns=2;i=1006</Reference>
+      <Reference IsForward="false" ReferenceType="i=35">ns=2;i=5003</Reference>
+    </References>
+  </UAObject>
+  <UAObject BrowseName="2:ValueSimulation" NodeId="ns=1;i=1005">
+    <DisplayName>ValueSimulation</DisplayName>
+    <Description>Simulation configuration for square wave values.</Description>
+    <References>
+      <Reference IsForward="false" ReferenceType="ns=2;i=4002">ns=3;i=1005</Reference>
+      <Reference ReferenceType="i=40">ns=2;i=1009</Reference>
+      <Reference IsForward="false" ReferenceType="i=35">ns=2;i=5003</Reference>
+    </References>
+  </UAObject>
+  <UAObject BrowseName="2:ValueSimulation" NodeId="ns=1;i=1006">
+    <DisplayName>ValueSimulation</DisplayName>
+    <Description>Simulation configuration for triangle wave values.</Description>
+    <References>
+      <Reference IsForward="false" ReferenceType="ns=2;i=4002">ns=3;i=1006</Reference>
+      <Reference ReferenceType="i=40">ns=2;i=1007</Reference>
+      <Reference IsForward="false" ReferenceType="i=35">ns=2;i=5003</Reference>
+    </References>
+  </UAObject>
+  <UAObject BrowseName="2:ValueSimulation" NodeId="ns=1;i=1007">
+    <DisplayName>ValueSimulation</DisplayName>
+    <Description>Simulation configuration for constant values.</Description>
+    <References>
+      <Reference IsForward="false" ReferenceType="ns=2;i=4002">ns=3;i=1021</Reference>
+      <Reference ReferenceType="i=40">ns=2;i=1003</Reference>
+      <Reference IsForward="false" ReferenceType="i=35">ns=2;i=5003</Reference>
+    </References>
+  </UAObject>
+  <UAObject BrowseName="2:ValueSimulation" NodeId="ns=1;i=1008">
+    <DisplayName>ValueSimulation</DisplayName>
+    <Description>Simulation configuration for constant values.</Description>
+    <References>
+      <Reference IsForward="false" ReferenceType="ns=2;i=4002">ns=3;i=1022</Reference>
+      <Reference ReferenceType="i=40">ns=2;i=1003</Reference>
+      <Reference IsForward="false" ReferenceType="i=35">ns=2;i=5003</Reference>
+    </References>
+  </UAObject>
+  <UAObject BrowseName="2:ValueSimulation" NodeId="ns=1;i=1009">
+    <DisplayName>ValueSimulation</DisplayName>
+    <Description>Simulation configuration for constant values.</Description>
+    <References>
+      <Reference IsForward="false" ReferenceType="ns=2;i=4002">ns=3;i=1024</Reference>
+      <Reference ReferenceType="i=40">ns=2;i=1003</Reference>
+      <Reference IsForward="false" ReferenceType="i=35">ns=2;i=5003</Reference>
+    </References>
+  </UAObject>
+  <UAObject BrowseName="2:ValueSimulation" NodeId="ns=1;i=1010">
+    <DisplayName>ValueSimulation</DisplayName>
+    <Description>Simulation configuration for constant values.</Description>
+    <References>
+      <Reference IsForward="false" ReferenceType="ns=2;i=4002">ns=3;i=1026</Reference>
+      <Reference ReferenceType="i=40">ns=2;i=1003</Reference>
+      <Reference IsForward="false" ReferenceType="i=35">ns=2;i=5003</Reference>
+    </References>
+  </UAObject>
+  <UAObject BrowseName="2:ValueSimulation" NodeId="ns=1;i=1011">
+    <DisplayName>ValueSimulation</DisplayName>
+    <Description>Simulation configuration for constant values.</Description>
+    <References>
+      <Reference IsForward="false" ReferenceType="ns=2;i=4002">ns=3;i=1025</Reference>
+      <Reference ReferenceType="i=40">ns=2;i=1003</Reference>
+      <Reference IsForward="false" ReferenceType="i=35">ns=2;i=5003</Reference>
+    </References>
+  </UAObject>
+  <UAObject BrowseName="2:ValueSimulation" NodeId="ns=1;i=1012">
+    <DisplayName>ValueSimulation</DisplayName>
+    <Description>Simulation configuration for constant values.</Description>
+    <References>
+      <Reference IsForward="false" ReferenceType="ns=2;i=4002">ns=3;i=1013</Reference>
+      <Reference ReferenceType="i=40">ns=2;i=1003</Reference>
+      <Reference IsForward="false" ReferenceType="i=35">ns=2;i=5003</Reference>
+    </References>
+  </UAObject>
+  <UAObject BrowseName="2:ValueSimulation" NodeId="ns=1;i=1013">
+    <DisplayName>ValueSimulation</DisplayName>
+    <Description>Simulation configuration for constant values.</Description>
+    <References>
+      <Reference IsForward="false" ReferenceType="ns=2;i=4002">ns=3;i=1008</Reference>
+      <Reference ReferenceType="i=40">ns=2;i=1003</Reference>
+      <Reference IsForward="false" ReferenceType="i=35">ns=2;i=5003</Reference>
+    </References>
+  </UAObject>
+  <UAObject BrowseName="2:ValueSimulation" NodeId="ns=1;i=1014">
+    <DisplayName>ValueSimulation</DisplayName>
+    <Description>Simulation configuration for constant values.</Description>
+    <References>
+      <Reference IsForward="false" ReferenceType="ns=2;i=4002">ns=3;i=1014</Reference>
+      <Reference ReferenceType="i=40">ns=2;i=1003</Reference>
+      <Reference IsForward="false" ReferenceType="i=35">ns=2;i=5003</Reference>
+    </References>
+  </UAObject>
+  <UAObject BrowseName="2:ValueSimulation" NodeId="ns=1;i=1015">
+    <DisplayName>ValueSimulation</DisplayName>
+    <Description>Simulation configuration for constant values.</Description>
+    <References>
+      <Reference IsForward="false" ReferenceType="ns=2;i=4002">ns=3;i=1029</Reference>
+      <Reference ReferenceType="i=40">ns=2;i=1003</Reference>
+      <Reference IsForward="false" ReferenceType="i=35">ns=2;i=5003</Reference>
+    </References>
+  </UAObject>
+  <UAObject BrowseName="2:ValueSimulation" NodeId="ns=1;i=1016">
+    <DisplayName>ValueSimulation</DisplayName>
+    <Description>Simulation configuration for constant values.</Description>
+    <References>
+      <Reference IsForward="false" ReferenceType="ns=2;i=4002">ns=3;i=1028</Reference>
+      <Reference ReferenceType="i=40">ns=2;i=1003</Reference>
+      <Reference IsForward="false" ReferenceType="i=35">ns=2;i=5003</Reference>
+    </References>
+  </UAObject>
+  <UAObject BrowseName="2:ValueSimulation" NodeId="ns=1;i=1017">
+    <DisplayName>ValueSimulation</DisplayName>
+    <Description>Simulation configuration for constant values.</Description>
+    <References>
+      <Reference IsForward="false" ReferenceType="ns=2;i=4002">ns=3;i=1016</Reference>
+      <Reference ReferenceType="i=40">ns=2;i=1003</Reference>
+      <Reference IsForward="false" ReferenceType="i=35">ns=2;i=5003</Reference>
+    </References>
+  </UAObject>
+  <UAObject BrowseName="2:ValueSimulation" NodeId="ns=1;i=1018">
+    <DisplayName>ValueSimulation</DisplayName>
+    <Description>Simulation configuration for constant values.</Description>
+    <References>
+      <Reference IsForward="false" ReferenceType="ns=2;i=4002">ns=3;i=1012</Reference>
+      <Reference ReferenceType="i=40">ns=2;i=1003</Reference>
+      <Reference IsForward="false" ReferenceType="i=35">ns=2;i=5003</Reference>
+    </References>
+  </UAObject>
+  <UAObject BrowseName="2:ValueSimulation" NodeId="ns=1;i=1019">
+    <DisplayName>ValueSimulation</DisplayName>
+    <Description>Simulation configuration for constant values.</Description>
+    <References>
+      <Reference IsForward="false" ReferenceType="ns=2;i=4002">ns=3;i=1017</Reference>
+      <Reference ReferenceType="i=40">ns=2;i=1003</Reference>
+      <Reference IsForward="false" ReferenceType="i=35">ns=2;i=5003</Reference>
+    </References>
+  </UAObject>
+  <UAObject BrowseName="2:ValueSimulation" NodeId="ns=1;i=1020">
+    <DisplayName>ValueSimulation</DisplayName>
+    <Description>Simulation configuration for constant values.</Description>
+    <References>
+      <Reference IsForward="false" ReferenceType="ns=2;i=4002">ns=3;i=1011</Reference>
+      <Reference ReferenceType="i=40">ns=2;i=1003</Reference>
+      <Reference IsForward="false" ReferenceType="i=35">ns=2;i=5003</Reference>
+    </References>
+  </UAObject>
+  <UAObject BrowseName="2:ValueSimulation" NodeId="ns=1;i=1021">
+    <DisplayName>ValueSimulation</DisplayName>
+    <Description>Simulation configuration for constant values.</Description>
+    <References>
+      <Reference IsForward="false" ReferenceType="ns=2;i=4002">ns=3;i=1015</Reference>
+      <Reference ReferenceType="i=40">ns=2;i=1003</Reference>
+      <Reference IsForward="false" ReferenceType="i=35">ns=2;i=5003</Reference>
+    </References>
+  </UAObject>
+  <UAObject BrowseName="2:ValueSimulation" NodeId="ns=1;i=1022">
+    <DisplayName>ValueSimulation</DisplayName>
+    <Description>Simulation configuration for constant values.</Description>
+    <References>
+      <Reference IsForward="false" ReferenceType="ns=2;i=4002">ns=3;i=1019</Reference>
+      <Reference ReferenceType="i=40">ns=2;i=1003</Reference>
+      <Reference IsForward="false" ReferenceType="i=35">ns=2;i=5003</Reference>
+    </References>
+  </UAObject>
+  <UAVariable BrowseName="1:Direction" DataType="i=26" MinimumSamplingInterval="-1.0" NodeId="ns=1;s=1001/0:Direction" UserAccessLevel="3">
+    <DisplayName>Direction</DisplayName>
+    <References>
+      <Reference ReferenceType="i=40">i=68</Reference>
+      <Reference IsForward="false" ReferenceType="i=46">ns=1;i=1001</Reference>
+    </References>
+    <Value>
+      <uax:Int32>0</uax:Int32>
+    </Value>
+  </UAVariable>
+  <UAVariable BrowseName="1:Increment" DataType="i=26" MinimumSamplingInterval="-1.0" NodeId="ns=1;s=1001/0:Increment" UserAccessLevel="3">
+    <DisplayName>Increment</DisplayName>
+    <References>
+      <Reference ReferenceType="i=40">i=68</Reference>
+      <Reference IsForward="false" ReferenceType="i=46">ns=1;i=1001</Reference>
+    </References>
+    <Value>
+      <uax:Int32>1</uax:Int32>
+    </Value>
+  </UAVariable>
+  <UAVariable BrowseName="1:Max Value" DataType="i=26" MinimumSamplingInterval="-1.0" NodeId="ns=1;s=1001/0:Max Value" UserAccessLevel="3">
+    <DisplayName>Max Value</DisplayName>
+    <References>
+      <Reference ReferenceType="i=40">i=68</Reference>
+      <Reference IsForward="false" ReferenceType="i=46">ns=1;i=1001</Reference>
+    </References>
+    <Value>
+      <uax:Int32>30</uax:Int32>
+    </Value>
+  </UAVariable>
+  <UAVariable BrowseName="1:Min Value" DataType="i=26" MinimumSamplingInterval="-1.0" NodeId="ns=1;s=1001/0:Min Value" UserAccessLevel="3">
+    <DisplayName>Min Value</DisplayName>
+    <References>
+      <Reference ReferenceType="i=40">i=68</Reference>
+      <Reference IsForward="false" ReferenceType="i=46">ns=1;i=1001</Reference>
+    </References>
+    <Value>
+      <uax:Int32>0</uax:Int32>
+    </Value>
+  </UAVariable>
+  <UAVariable BrowseName="1:Max Value" DataType="i=26" MinimumSamplingInterval="-1.0" NodeId="ns=1;s=1002/0:Max Value" UserAccessLevel="3">
+    <DisplayName>Max Value</DisplayName>
+    <References>
+      <Reference ReferenceType="i=40">i=68</Reference>
+      <Reference IsForward="false" ReferenceType="i=46">ns=1;i=1002</Reference>
+    </References>
+    <Value>
+      <uax:Int32>2</uax:Int32>
+    </Value>
+  </UAVariable>
+  <UAVariable BrowseName="1:Min Value" DataType="i=26" MinimumSamplingInterval="-1.0" NodeId="ns=1;s=1002/0:Min Value" UserAccessLevel="3">
+    <DisplayName>Min Value</DisplayName>
+    <References>
+      <Reference ReferenceType="i=40">i=68</Reference>
+      <Reference IsForward="false" ReferenceType="i=46">ns=1;i=1002</Reference>
+    </References>
+    <Value>
+      <uax:Int32>-2</uax:Int32>
+    </Value>
+  </UAVariable>
+  <UAVariable BrowseName="1:Max Value" DataType="i=26" MinimumSamplingInterval="-1.0" NodeId="ns=1;s=1003/0:Max Value" UserAccessLevel="3">
+    <DisplayName>Max Value</DisplayName>
+    <References>
+      <Reference ReferenceType="i=40">i=68</Reference>
+      <Reference IsForward="false" ReferenceType="i=46">ns=1;i=1003</Reference>
+    </References>
+    <Value>
+      <uax:Int32>2</uax:Int32>
+    </Value>
+  </UAVariable>
+  <UAVariable BrowseName="1:Min Value" DataType="i=26" MinimumSamplingInterval="-1.0" NodeId="ns=1;s=1003/0:Min Value" UserAccessLevel="3">
+    <DisplayName>Min Value</DisplayName>
+    <References>
+      <Reference ReferenceType="i=40">i=68</Reference>
+      <Reference IsForward="false" ReferenceType="i=46">ns=1;i=1003</Reference>
+    </References>
+    <Value>
+      <uax:Int32>-2</uax:Int32>
+    </Value>
+  </UAVariable>
+  <UAVariable BrowseName="1:Period" DataType="i=26" MinimumSamplingInterval="-1.0" NodeId="ns=1;s=1003/0:Period" UserAccessLevel="3">
+    <DisplayName>Period</DisplayName>
+    <References>
+      <Reference ReferenceType="i=40">i=68</Reference>
+      <Reference IsForward="false" ReferenceType="i=46">ns=1;i=1003</Reference>
+    </References>
+    <Value>
+      <uax:Int32>10</uax:Int32>
+    </Value>
+  </UAVariable>
+  <UAVariable BrowseName="1:Time Offset" DataType="i=26" MinimumSamplingInterval="-1.0" NodeId="ns=1;s=1003/0:Time Offset" UserAccessLevel="3">
+    <DisplayName>Time Offset</DisplayName>
+    <References>
+      <Reference ReferenceType="i=40">i=68</Reference>
+      <Reference IsForward="false" ReferenceType="i=46">ns=1;i=1003</Reference>
+    </References>
+    <Value>
+      <uax:Int32>0</uax:Int32>
+    </Value>
+  </UAVariable>
+  <UAVariable BrowseName="1:Max Value" DataType="i=26" MinimumSamplingInterval="-1.0" NodeId="ns=1;s=1004/0:Max Value" UserAccessLevel="3">
+    <DisplayName>Max Value</DisplayName>
+    <References>
+      <Reference ReferenceType="i=40">i=68</Reference>
+      <Reference IsForward="false" ReferenceType="i=46">ns=1;i=1004</Reference>
+    </References>
+    <Value>
+      <uax:Int32>2</uax:Int32>
+    </Value>
+  </UAVariable>
+  <UAVariable BrowseName="1:Min Value" DataType="i=26" MinimumSamplingInterval="-1.0" NodeId="ns=1;s=1004/0:Min Value" UserAccessLevel="3">
+    <DisplayName>Min Value</DisplayName>
+    <References>
+      <Reference ReferenceType="i=40">i=68</Reference>
+      <Reference IsForward="false" ReferenceType="i=46">ns=1;i=1004</Reference>
+    </References>
+    <Value>
+      <uax:Int32>-2</uax:Int32>
+    </Value>
+  </UAVariable>
+  <UAVariable BrowseName="1:Period" DataType="i=26" MinimumSamplingInterval="-1.0" NodeId="ns=1;s=1004/0:Period" UserAccessLevel="3">
+    <DisplayName>Period</DisplayName>
+    <References>
+      <Reference ReferenceType="i=40">i=68</Reference>
+      <Reference IsForward="false" ReferenceType="i=46">ns=1;i=1004</Reference>
+    </References>
+    <Value>
+      <uax:Int32>30</uax:Int32>
+    </Value>
+  </UAVariable>
+  <UAVariable BrowseName="1:Time Offset" DataType="i=26" MinimumSamplingInterval="-1.0" NodeId="ns=1;s=1004/0:Time Offset" UserAccessLevel="3">
+    <DisplayName>Time Offset</DisplayName>
+    <References>
+      <Reference ReferenceType="i=40">i=68</Reference>
+      <Reference IsForward="false" ReferenceType="i=46">ns=1;i=1004</Reference>
+    </References>
+    <Value>
+      <uax:Int32>0</uax:Int32>
+    </Value>
+  </UAVariable>
+  <UAVariable BrowseName="1:Max Value" DataType="i=26" MinimumSamplingInterval="-1.0" NodeId="ns=1;s=1005/0:Max Value" UserAccessLevel="3">
+    <DisplayName>Max Value</DisplayName>
+    <References>
+      <Reference ReferenceType="i=40">i=68</Reference>
+      <Reference IsForward="false" ReferenceType="i=46">ns=1;i=1005</Reference>
+    </References>
+    <Value>
+      <uax:Int32>2</uax:Int32>
+    </Value>
+  </UAVariable>
+  <UAVariable BrowseName="1:Min Value" DataType="i=26" MinimumSamplingInterval="-1.0" NodeId="ns=1;s=1005/0:Min Value" UserAccessLevel="3">
+    <DisplayName>Min Value</DisplayName>
+    <References>
+      <Reference ReferenceType="i=40">i=68</Reference>
+      <Reference IsForward="false" ReferenceType="i=46">ns=1;i=1005</Reference>
+    </References>
+    <Value>
+      <uax:Int32>-2</uax:Int32>
+    </Value>
+  </UAVariable>
+  <UAVariable BrowseName="1:Period" DataType="i=26" MinimumSamplingInterval="-1.0" NodeId="ns=1;s=1005/0:Period" UserAccessLevel="3">
+    <DisplayName>Period</DisplayName>
+    <References>
+      <Reference ReferenceType="i=40">i=68</Reference>
+      <Reference IsForward="false" ReferenceType="i=46">ns=1;i=1005</Reference>
+    </References>
+    <Value>
+      <uax:Int32>8</uax:Int32>
+    </Value>
+  </UAVariable>
+  <UAVariable BrowseName="1:Time Offset" DataType="i=26" MinimumSamplingInterval="-1.0" NodeId="ns=1;s=1005/0:Time Offset" UserAccessLevel="3">
+    <DisplayName>Time Offset</DisplayName>
+    <References>
+      <Reference ReferenceType="i=40">i=68</Reference>
+      <Reference IsForward="false" ReferenceType="i=46">ns=1;i=1005</Reference>
+    </References>
+    <Value>
+      <uax:Int32>0</uax:Int32>
+    </Value>
+  </UAVariable>
+  <UAVariable BrowseName="1:Max Value" DataType="i=26" MinimumSamplingInterval="-1.0" NodeId="ns=1;s=1006/0:Max Value" UserAccessLevel="3">
+    <DisplayName>Max Value</DisplayName>
+    <References>
+      <Reference ReferenceType="i=40">i=68</Reference>
+      <Reference IsForward="false" ReferenceType="i=46">ns=1;i=1006</Reference>
+    </References>
+    <Value>
+      <uax:Int32>2</uax:Int32>
+    </Value>
+  </UAVariable>
+  <UAVariable BrowseName="1:Min Value" DataType="i=26" MinimumSamplingInterval="-1.0" NodeId="ns=1;s=1006/0:Min Value" UserAccessLevel="3">
+    <DisplayName>Min Value</DisplayName>
+    <References>
+      <Reference ReferenceType="i=40">i=68</Reference>
+      <Reference IsForward="false" ReferenceType="i=46">ns=1;i=1006</Reference>
+    </References>
+    <Value>
+      <uax:Int32>-2</uax:Int32>
+    </Value>
+  </UAVariable>
+  <UAVariable BrowseName="1:Period" DataType="i=26" MinimumSamplingInterval="-1.0" NodeId="ns=1;s=1006/0:Period" UserAccessLevel="3">
+    <DisplayName>Period</DisplayName>
+    <References>
+      <Reference ReferenceType="i=40">i=68</Reference>
+      <Reference IsForward="false" ReferenceType="i=46">ns=1;i=1006</Reference>
+    </References>
+    <Value>
+      <uax:Int32>30</uax:Int32>
+    </Value>
+  </UAVariable>
+  <UAVariable BrowseName="1:Time Offset" DataType="i=26" MinimumSamplingInterval="-1.0" NodeId="ns=1;s=1006/0:Time Offset" UserAccessLevel="3">
+    <DisplayName>Time Offset</DisplayName>
+    <References>
+      <Reference ReferenceType="i=40">i=68</Reference>
+      <Reference IsForward="false" ReferenceType="i=46">ns=1;i=1006</Reference>
+    </References>
+    <Value>
+      <uax:Int32>0</uax:Int32>
+    </Value>
+  </UAVariable>
+  <UAVariable BrowseName="1:Initial Value" DataType="i=10" MinimumSamplingInterval="-1.0" NodeId="ns=1;s=1007/0:Initial Value" UserAccessLevel="3">
+    <DisplayName>Initial Value</DisplayName>
+    <References>
+      <Reference ReferenceType="i=40">i=68</Reference>
+      <Reference IsForward="false" ReferenceType="i=46">ns=1;i=1007</Reference>
+    </References>
+  </UAVariable>
+  <UAVariable BrowseName="1:Initial Value" DataType="i=10" MinimumSamplingInterval="-1.0" NodeId="ns=1;s=1008/0:Initial Value" UserAccessLevel="3">
+    <DisplayName>Initial Value</DisplayName>
+    <References>
+      <Reference ReferenceType="i=40">i=68</Reference>
+      <Reference IsForward="false" ReferenceType="i=46">ns=1;i=1008</Reference>
+    </References>
+  </UAVariable>
+  <UAVariable BrowseName="1:Initial Value" DataType="i=10" MinimumSamplingInterval="-1.0" NodeId="ns=1;s=1009/0:Initial Value" UserAccessLevel="3">
+    <DisplayName>Initial Value</DisplayName>
+    <References>
+      <Reference ReferenceType="i=40">i=68</Reference>
+      <Reference IsForward="false" ReferenceType="i=46">ns=1;i=1009</Reference>
+    </References>
+  </UAVariable>
+  <UAVariable BrowseName="1:Initial Value" DataType="i=10" MinimumSamplingInterval="-1.0" NodeId="ns=1;s=1010/0:Initial Value" UserAccessLevel="3">
+    <DisplayName>Initial Value</DisplayName>
+    <References>
+      <Reference ReferenceType="i=40">i=68</Reference>
+      <Reference IsForward="false" ReferenceType="i=46">ns=1;i=1010</Reference>
+    </References>
+  </UAVariable>
+  <UAVariable BrowseName="1:Initial Value" DataType="i=10" MinimumSamplingInterval="-1.0" NodeId="ns=1;s=1011/0:Initial Value" UserAccessLevel="3">
+    <DisplayName>Initial Value</DisplayName>
+    <References>
+      <Reference ReferenceType="i=40">i=68</Reference>
+      <Reference IsForward="false" ReferenceType="i=46">ns=1;i=1011</Reference>
+    </References>
+  </UAVariable>
+  <UAVariable BrowseName="1:Initial Value" DataType="i=10" MinimumSamplingInterval="-1.0" NodeId="ns=1;s=1012/0:Initial Value" UserAccessLevel="3">
+    <DisplayName>Initial Value</DisplayName>
+    <References>
+      <Reference ReferenceType="i=40">i=68</Reference>
+      <Reference IsForward="false" ReferenceType="i=46">ns=1;i=1012</Reference>
+    </References>
+  </UAVariable>
+  <UAVariable BrowseName="1:Initial Value" DataType="i=10" MinimumSamplingInterval="-1.0" NodeId="ns=1;s=1013/0:Initial Value" UserAccessLevel="3">
+    <DisplayName>Initial Value</DisplayName>
+    <References>
+      <Reference ReferenceType="i=40">i=68</Reference>
+      <Reference IsForward="false" ReferenceType="i=46">ns=1;i=1013</Reference>
+    </References>
+    <Value>
+      <uax:Float>15.5</uax:Float>
+    </Value>
+  </UAVariable>
+  <UAVariable BrowseName="1:Initial Value" DataType="i=10" MinimumSamplingInterval="-1.0" NodeId="ns=1;s=1014/0:Initial Value" UserAccessLevel="3">
+    <DisplayName>Initial Value</DisplayName>
+    <References>
+      <Reference ReferenceType="i=40">i=68</Reference>
+      <Reference IsForward="false" ReferenceType="i=46">ns=1;i=1014</Reference>
+    </References>
+    <Value>
+      <uax:Float>16.5</uax:Float>
+    </Value>
+  </UAVariable>
+  <UAVariable BrowseName="1:Initial Value" DataType="i=10" MinimumSamplingInterval="-1.0" NodeId="ns=1;s=1015/0:Initial Value" UserAccessLevel="3">
+    <DisplayName>Initial Value</DisplayName>
+    <References>
+      <Reference ReferenceType="i=40">i=68</Reference>
+      <Reference IsForward="false" ReferenceType="i=46">ns=1;i=1015</Reference>
+    </References>
+  </UAVariable>
+  <UAVariable BrowseName="1:Initial Value" DataType="i=10" MinimumSamplingInterval="-1.0" NodeId="ns=1;s=1016/0:Initial Value" UserAccessLevel="3">
+    <DisplayName>Initial Value</DisplayName>
+    <References>
+      <Reference ReferenceType="i=40">i=68</Reference>
+      <Reference IsForward="false" ReferenceType="i=46">ns=1;i=1016</Reference>
+    </References>
+  </UAVariable>
+  <UAVariable BrowseName="1:Initial Value" DataType="i=10" MinimumSamplingInterval="-1.0" NodeId="ns=1;s=1017/0:Initial Value" UserAccessLevel="3">
+    <DisplayName>Initial Value</DisplayName>
+    <References>
+      <Reference ReferenceType="i=40">i=68</Reference>
+      <Reference IsForward="false" ReferenceType="i=46">ns=1;i=1017</Reference>
+    </References>
+  </UAVariable>
+  <UAVariable BrowseName="1:Initial Value" DataType="i=1" MinimumSamplingInterval="-1.0" NodeId="ns=1;s=1018/0:Initial Value" UserAccessLevel="3">
+    <DisplayName>Initial Value</DisplayName>
+    <References>
+      <Reference ReferenceType="i=40">i=68</Reference>
+      <Reference IsForward="false" ReferenceType="i=46">ns=1;i=1018</Reference>
+    </References>
+  </UAVariable>
+  <UAVariable BrowseName="1:Initial Value" DataType="i=1" MinimumSamplingInterval="-1.0" NodeId="ns=1;s=1019/0:Initial Value" UserAccessLevel="3">
+    <DisplayName>Initial Value</DisplayName>
+    <References>
+      <Reference ReferenceType="i=40">i=68</Reference>
+      <Reference IsForward="false" ReferenceType="i=46">ns=1;i=1019</Reference>
+    </References>
+  </UAVariable>
+  <UAVariable BrowseName="1:Initial Value" DataType="i=10" MinimumSamplingInterval="-1.0" NodeId="ns=1;s=1020/0:Initial Value" UserAccessLevel="3">
+    <DisplayName>Initial Value</DisplayName>
+    <References>
+      <Reference ReferenceType="i=40">i=68</Reference>
+      <Reference IsForward="false" ReferenceType="i=46">ns=1;i=1020</Reference>
+    </References>
+  </UAVariable>
+  <UAVariable BrowseName="1:Initial Value" DataType="i=10" MinimumSamplingInterval="-1.0" NodeId="ns=1;s=1021/0:Initial Value" UserAccessLevel="3">
+    <DisplayName>Initial Value</DisplayName>
+    <References>
+      <Reference ReferenceType="i=40">i=68</Reference>
+      <Reference IsForward="false" ReferenceType="i=46">ns=1;i=1021</Reference>
+    </References>
+  </UAVariable>
+  <UAVariable BrowseName="1:Initial Value" DataType="i=10" MinimumSamplingInterval="-1.0" NodeId="ns=1;s=1022/0:Initial Value" UserAccessLevel="3">
+    <DisplayName>Initial Value</DisplayName>
+    <References>
+      <Reference ReferenceType="i=40">i=68</Reference>
+      <Reference IsForward="false" ReferenceType="i=46">ns=1;i=1022</Reference>
+    </References>
+  </UAVariable>
+</UANodeSet>

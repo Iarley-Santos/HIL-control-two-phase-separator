@@ -15,15 +15,26 @@
 #include <Arduino.h>
 
 /**
+ * @brief Union to convert between six floats and 24 bytes.
+ * 
+ * Provides a convenient way to receive six floats 
+ * over serial communication as a raw byte array.
+ */
+typedef union {
+    float numbers[6];   // Stores six float values
+    uint8_t bytes[24];  // Raw byte representation of the six floats
+} DATA_VECTOR_IN;
+
+/**
  * @brief Union to convert between two floats and 8 bytes.
  * 
- * Provides a convenient way to send and receive two floats 
+ * Provides a convenient way to send two floats 
  * over serial communication as a raw byte array.
  */
 typedef union {
     float numbers[2];   // Stores two float values
     uint8_t bytes[8];   // Raw byte representation of the two floats
-} DATA_VECTOR;
+} DATA_VECTOR_OUT;
 
 // ===================== FUNCTION PROTOTYPES ====================
 
@@ -43,6 +54,6 @@ void serial_write_vector(float value1, float value2);
  * 
  * @return DATA_VECTOR containing the two floats received
  */
-DATA_VECTOR serial_read_vector();
+DATA_VECTOR_IN serial_read_vector();
 
 #endif // SERIAL_BRIDGE_H
